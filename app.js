@@ -10,7 +10,7 @@ app.use(express.static("public"));
 
 let tasks = [];
 
-/* HOME - DASHBOARD */
+
 app.get("/", (req, res) => {
 
     const total = tasks.length;
